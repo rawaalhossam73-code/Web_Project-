@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Tech Deals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+ <header> 
+<div class="cart">
+    <div class="cart-icon">🛒 Cart (
+    <span id="cart-count">0</span>)
+    </div>
+</div>
+</header>
+
+<section class="products-section">
+
+    <div class="section-titel">
+        <span class="titel-shape"></span>
+        <h3>Today's Picks</h3>
+    </div>
+    <h1>Hot Tech Deals</h1>
+
+    <div class="cards">
+        <div class="card">
+            <img src="images/IMG-20260516-WA011.jpg" alt="Phone">
+            <h3 class="product-name">Smart Phone</h3>
+            <span class="price">$650</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        
+        <div class="card">
+            <img src="images/Wireless headphones.jpg" alt="Headphones">
+            <h3 class="product-name">Wireless Headset</h3>
+                 <span class="price">$85</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="images/smart watch.jpg" alt="Watch">
+            <h3 class="product-name">Smart Watch</h3>
+            <span class="price">$120</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="images/Laptop Pro.jpg" alt="Laptop">
+            <h3 class="product-name">Laptop Pro</h3>
+               <span class="price">$850</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="images/Cameraa.jpg" alt="Camera">
+            <h3 class="product-name">Camera</h3>
+            <span class="price">$950</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+    
+    <div class="cards" style="margin-top: 20px;">
+        <div class="card">
+            <img src="images/iPad Air.jpg" alt="iPad Air">
+            <h3 class="product-name">iPad Air</h3>
+                  <span class="price">$350</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="images/Gaming Mouse.jpg" alt="Gaming Mouse">
+            <h3 class="product-name">Gaming Mouse</h3>
+                 <span class="price">$20</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="images/Wired Gaming Keyboard.jpg" alt="Keyboard">
+            <h3 class="product-name">Wired Keyboard</h3>
+                <span class="price">$30</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="images/Fitness Band.jpg" alt="Fitness Band">
+            <h3 class="product-name">Fitness Band</h3>
+                <span class="price">$50</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="images/Smart TV.jpg" alt="TV">
+            <h3 class="product-name">Smart TV</h3>
+               <span class="price">$450</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
